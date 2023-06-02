@@ -1,0 +1,118 @@
+.faqs .title {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.faqs .title h1 {
+    font-size: 2.2em;
+    font-weight: 500px;
+}
+
+.faqs .accordion {
+    position: relative;
+    margin: auto;
+    width: 600px;
+}
+.faqs .accordion li {
+    list-style: none;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #A8AEDD91;
+    ;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+                -6px 6px 10px -1px rgba(255,255,255,0.7);
+}
+
+.faqs .accordion label {
+    justify-content: space-between;
+    display: flex;
+    text-align: left;
+
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 550px;
+}
+.faqs .accordion label::after {
+    text-align: right;
+
+    content: url(Assets/down.svg);
+    font-size: 6px;
+    padding-top: 9px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    overflow: visible;
+}
+.faqs .accordion input[type="radio"] {
+    display: none
+}
+
+.faqs .accordion .desc {
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+.faqs .accordion input[type="radio"]:checked + label + .desc {
+    max-height: 400px;
+    padding: 10px 10px 20px;
+}
+
+/* white space */
+.white-space {
+    height: 60px;
+}
+
+/* footer styling */
+footer {
+    justify-content: space-around;
+    padding: 20px;
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    height: 200px;
+}
+footer img {
+    filter: invert(100%)
+}
+footer h1 {
+    padding-top: 10px;
+    font-size: 1.5em;
+}
+footer h2 {
+    padding-top: 10px;
+    font-size: 1.2em;
+}
+footer h3 {
+    padding-top: 10px;
+    font-size: 0.9em;
+}
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+footer .nav {
+    padding-top: 10px;
+    display: flex;
+}
+footer .nav .col {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-right: 20px;
+}
+footer .nav .col a {
+    padding-top: 3px;
+}
+footer .soc-med a {
+    font-size: 1.8em;
+}
