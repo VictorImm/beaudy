@@ -1,5 +1,5 @@
 .faqs .title {
-    padding-top: 30px;
+    padding-top: 120px;
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
@@ -75,11 +75,11 @@
 /* footer styling */
 footer {
     justify-content: space-around;
-    padding: 20px;
+    padding: 40px;
     display: flex;
     background-color: #000;
     color: #fff;
-    height: 200px;
+    height: 300px;
 }
 footer img {
     filter: invert(100%)
