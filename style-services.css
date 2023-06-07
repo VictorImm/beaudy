@@ -1,0 +1,215 @@
+.services .title {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.services .title h1 {
+    font-size: 2.2em;
+    font-weight: 500px;
+}
+
+.services .detail {
+    padding-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services .detail .nav {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+}
+.services .detail .nav .online,
+.services .detail .nav .clinic,
+.services .detail .nav .test {
+    color: #000;
+    padding: 6px;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: visible;
+    transition: .5s;
+}
+.services .detail .nav .online.active,
+.services .detail .nav .clinic.active,
+.services .detail .nav .test.active {
+    color: #fff;
+    background-color: #88D4C3;
+}
+
+.services .slider-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.services .pre-btn,
+.services .nxt-btn {
+    border: none;
+    background: none;
+    width: 10vw;
+    height: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 90;
+}
+.services .pre-btn {
+    transform: rotate(180deg);
+}
+
+.services .slider {
+    position: relative;
+    background: transparent;
+    width: 820px;     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: scroll;
+    transition: .5s;
+
+
+}
+.services .slider::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: none;
+}
+
+.services .slider .item-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 30px;
+    margin: 20px;
+    min-width: 800px;
+    max-width: 800px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 30px;
+    box-shadow: 0 6px 2px rgba(0,0,0,0.15);
+    transform: translateX(850px);
+}
+/* .services .slider.derma {
+    transition: none;
+    transform: translateX(820px);
+}
+.services .slider.map {
+    transition: none;
+    transform: translateX(0);
+}
+.services .slider.test {
+    transition: none;
+    transform: translateX(-820px);
+} */
+
+
+.services .slider .item-box {
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 80px;
+}
+.services .slider .item-box .text h1 {
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.services .slider .item-box .text a {
+    padding: 10px;
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #000;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 700;
+
+    text-decoration: none;
+    cursor: pointer;
+    transition: .5s;
+}
+.services .slider .item-box .text a:hover {
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #000;
+}
+.services .slider .item-box img {
+    width: auto;
+    height: auto;
+    max-width: 120px;
+    max-height: 120px;
+    object-fit: cover;
+}
+
+.services .they-said {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.services .they-said .question {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 60px;
+
+    background-color: #A8AEDD91;
+    border-radius: 15px 0 0 0;
+    box-shadow: 0 6px 10px -1px rgba(0,0,0,0.15); 
+}
+.services .they-said .question .icon {
+    scale: 0.8;
+    padding: 20px 18px 20px 18px;
+
+    margin-bottom: 30px;
+    background-color: #8769B6;
+    border-radius: 50%;
+    overflow: visible;
+}
+.services .they-said .question h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.services .they-said .question .one-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.services .they-said .question .one-line img {
+    scale: 0.8;
+}
+
+.services .they-said .answer {
+    padding-top: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.services .they-said .answer h2 {
+    font-size: 25px;
+    font-weight: 700;
+}
+.services .they-said .answer h3 {
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.services .they-said .answer .pictures {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.services .they-said .answer .pictures img {
+    padding: 5px;
+}
+.services .they-said .answer p {
+    size: 16px;
+}
