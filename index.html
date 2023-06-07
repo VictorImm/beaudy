@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="style-about.css">
+    <link rel="stylesheet" type="text/css" href="style-services.css">
     <link rel="stylesheet" type="text/css" href="style-faqs.css">
     <title>Beaudy</title>
 </head>
@@ -16,7 +17,7 @@
         <ul>
             <li><a href="#banner">Home</a></li>
             <li><a href="#about">About us</a></li>
-            <li><a href="#">Services</a></li>
+            <li><a href="#services">Services</a></li>
             <li><a href="#faqs">FAQs</a></li>
             <li><a href="#" class="btn-login">Login</a></li>
         </ul>
@@ -47,6 +48,7 @@
         </div>
     </section>
 
+    <!-- About -->
     <section class="about" id="about">
         <div class="content">
             <div class="title">
@@ -94,10 +96,85 @@
         
     </section>
 
-    <section class="services">
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="content">
+            <div class="title">
+                <h1>Layanan Kami</h1>
+            </div>
+
+            <div class="detail">
+                <div class="nav">
+                    <div class="online active">
+                        <p>Online Consultation</p>
+                    </div>
+                    <div class="clinic">
+                        <p>Beauty Clinic</p>
+                    </div>
+                    <div class="test">
+                        <p>Skin-Type Test</p>
+                    </div>
+                </div>
+                <div class="slider-container">
+                    <button class="pre-btn"><img src="Assets/arrow.png"></button>
+                    <div class="slider">
+                        <div class="item-box">
+                            <div class="text">
+                                <h1>Jadwalkan konsultasi dengan</br>dermatologist</h1>
+                                <a href="#" class="btn-discover">Discover more</a>
+                            </div>
+                            <img src="Assets/dematologist 1.svg">
+                        </div>
+
+                        <div class="item-box">
+                            <div class="text">
+                                <h1>Temukan klinik kecantikan di sekitar</br>Anda</h1>
+                                <a href="#" class="btn-discover">Discover more</a>
+                            </div>
+                            <img src="Assets/location 1.svg">
+                        </div>
+
+                        <div class="item-box">
+                            <div class="text">
+                                <h1>Temukan jenis kulit Anda</br>dengan skin-type test</h1>
+                                <a href="#" class="btn-discover">Discover more</a>
+                            </div>
+                            <img src="Assets/skin-type test 1.svg">
+                        </div>                    
+                    </div>
+                    <button class="nxt-btn"><img src="Assets/arrow.png"></button>
+                </div>
+                
+                <div class="they-said">
+                    <div class="question">
+                        <img src="Assets/icon-petik-dua.svg" class="icon">
+                        <h1>Apa kata mereka</h1>
+                        <div class="one-line">
+                            <h1>tentang</h1>
+                            <img src="Assets/Beaudy.svg">
+                        </div>                    
+                    </div>
+                    <div class="answer">
+                        <h2>Membantu memahami permasalah kulit</h2>
+                        <h3>Saya dapat berkonsultasi dengan dermatologist dan</br>memahami kebutuhan kulit saya</h3>
+                        <div class="pictures">
+                            <img src="Assets/pic1.svg" class="less-opaque">
+                            <img src="Assets/pic2.svg">
+                            <img src="Assets/pic3.svg" class="less-opaque">
+                        </div>
+                        <p><strong>Rachel Olivia, 21 Years Old</strong></p>
+                        <p>College Student</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+        
 
     </section>
 
+    <!-- FAQs -->
     <section class="faqs" id="faqs"> 
         <div class="content">
             <div class="title">
@@ -171,5 +248,7 @@
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>
