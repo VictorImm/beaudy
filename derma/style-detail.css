@@ -1,0 +1,192 @@
+.horizontal-line {
+    border-top: 1.5px solid #8769B6;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.invoice {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 400px;
+    background-color: #fff;
+    border: 1px solid #8769B6;
+    margin: 30px 30px 0 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.invoice h1 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.invoice .derma-selected {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.derma-selected .pp {
+    width: 80px;
+    height: auto;
+    margin: 10px;
+}
+.derma-selected .profile-selected {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.derma-selected .profile-selected h2 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.derma-selected .profile-selected .rate {
+    display: flex;
+    flex-direction: row;
+}
+.derma-selected .profile-selected .rate .rate-item {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    background-color: #8769B6;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 50px;
+}
+.derma-selected .profile-selected .rate .rate-item ion-icon,
+.derma-selected .profile-selected .rate .rate-item img {
+    filter: brightness(0) invert(1);
+    padding-right: 5px;
+}
+
+.invoice .btn-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.invoice .btn-menu .btn {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #A8AEDD;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+    cursor: pointer;
+}
+.invoice .btn-menu .btn.c.active,
+.invoice .btn-menu .btn.v.active {
+    border: 3px solid #8769B6;
+}
+.invoice .btn-menu .btn label {
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.invoice .btn-menu .btn input[type="radio"] {
+    display: none;
+}
+
+.voucher {
+    text-align: left;
+    margin-left: 40px;
+}
+.voucher h2 {
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.voucher h3 {
+    padding-bottom: 10px;
+    font-size: 10px;
+    font-weight: 400;
+    color: #6E6D7A;
+}
+.voucher .voucher-input {
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    padding-bottom: 9px;
+    border: 1px solid #000;
+    background-color: #F3F3F4;
+    width: 280px;
+}
+.voucher .voucher-input input {
+    background-color: transparent;
+    border: 0px solid;
+}
+.voucher .voucher-input label {
+    font-size: 8px;
+    font-weight: 700;
+    color: #fff;
+
+    background-color: #000;
+    border-radius: 3px;
+    padding: 5px;
+    margin-left: 5px;
+}
+.voucher .voucher-ddown {
+    width: 280px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #8769B6;
+    background-color: #A8AEDD4F;
+    justify-content: center;
+    align-items: center;
+}
+.voucher .voucher-ddown select {
+    font-size: 10px;
+    font-weight: 700;
+    padding-left: 5px;
+    background-color: transparent;
+    border: 0px solid;
+    color: #8769B6;
+    transform: translateY(-5px);
+}
+
+.invoice .title-biaya {
+    margin-left: 40px;
+}
+.invoice .title-biaya h2{
+    text-align: left;
+    font-size: 15px;
+    font-weight: 700;
+}
+.invoice .biaya-container {
+    margin-left: 40px;
+    margin-right: 80px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 10px;
+    font-weight: 700;
+}
+.invoice .btn-bayar {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.invoice .btn-bayar a {
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}

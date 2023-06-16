@@ -1,0 +1,110 @@
+.comm .title {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.comm .title h1 {
+    font-size: 2.2em;
+    font-weight: 500px;
+}
+.comm .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comm .join {
+    scale: .8;
+    background-color: #88D4C3;
+    background-blend-mode: multiply;
+    background-image: url(Assets/banner\ mini.svg);
+    background-repeat: no-repeat;
+    width: 1177px;
+    height: 263px;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.comm .join h1 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.comm .join a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    background-color: #000;
+    border-radius: 40px;
+    font-weight: 700;
+}
+
+.comm .they-said {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.comm .they-said .question {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 60px;
+
+    background-color: #A8AEDD91;
+    border-radius: 15px 0 0 0;
+    box-shadow: 0 6px 10px -1px rgba(0,0,0,0.15); 
+}
+.comm .they-said .question .icon {
+    scale: 0.8;
+    padding: 20px 18px 20px 18px;
+
+    margin-bottom: 30px;
+    background-color: #8769B6;
+    border-radius: 50%;
+    overflow: visible;
+}
+.comm .they-said .question h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.comm .they-said .question .one-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.comm .they-said .question .one-line img {
+    scale: 0.8;
+}
+
+.comm .they-said .answer {
+    padding-top: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.comm .they-said .answer h2 {
+    font-size: 25px;
+    font-weight: 700;
+}
+.comm .they-said .answer h3 {
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.comm .they-said .answer .pictures {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.comm .they-said .answer .pictures img {
+    padding: 5px;
+}
+.comm .they-said .answer p {
+    size: 16px;
+}

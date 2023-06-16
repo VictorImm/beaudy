@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* body style */
+body {
+    min-height: 100vh;
+    background-color: #F3FBF9;
+}
+
+/* header style */
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.4);
+}
+
+/* logo style */
+.header .logo {
+    padding-left: 45px;
+}
+
+/* title style */
+.derma-list .title {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.derma-list .title h1 {
+    font-size: 2.2em;
+    font-weight: 500px;
+}
+
+/*  */
+.derma-list content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* dermatologist list style */
+.derma-list .content-container {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.derma-list .derma-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.derma-list .derma-container .col {
+    display: flex;
+    flex-direction: column;
+}
+.derma-list .derma-container .row {
+    display: flex;
+    flex-direction: row;
+}
+.derma-list .derma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    padding-top: 0;
+    background-color: #B1B6E0;
+    border-radius: 15px;
+    margin: 30px;
+}
+
+/* derma profile */
+.derma .ratting {
+    transform: translate(-115px, 40px);
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../Assets/cloth.svg);
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.derma .ratting ion-icon {
+    padding-right: 5px;
+}
+.derma .ratting ion-icon,
+.derma .ratting p {
+    transform: translateY(-7px);
+}
+.derma img {
+    padding: 10px;
+}
+
+/* detail profile */
+.derma .detail h1 {
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.derma h2 {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.derma .detail {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    color: #6E6D7A; 
+}
+.derma .detail h3 {
+    font-size: 13px;
+    font-weight: 700;
+
+    padding: 5px;
+    background-color: #D9D9D9;
+}
+.derma .detail .accuracy {
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 5px !important;
+    background-color: #D9D9D9;
+}
+.derma .detail .accuracy img {
+    padding: 0;
+    padding-right: 3px;
+}
+.derma .detail .accuracy h3 {
+    padding: 0;
+}
+
+/* btn konsultasi style */
+.derma .btn {
+    display: flex;
+    flex-direction: row;
+}
+.derma .btn label {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: #000;
+    cursor: pointer;
+    color: #fff;
+}
+.derma .btn input[type="radio"] {
+    display: none
+}
+
+/* derma detail */
+.detail-container .detail #c1,
+.detail-container .detail #c2,
+.detail-container .detail #c3,
+.detail-container .detail #c4 {
+    display: none;
+}
+.detail-container .detail #c1.active,
+.detail-container .detail #c2.active,
+.detail-container .detail #c3.active,
+.detail-container .detail #c4.active {
+    display: block;
+}
