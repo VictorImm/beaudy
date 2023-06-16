@@ -2,7 +2,6 @@
     padding-top: 30px;
     display: flex;
     justify-content: center;
-    padding-bottom: 30px;
 }
 .services .title h1 {
     font-size: 2.2em;
@@ -20,7 +19,6 @@
 .services .detail .nav {
     display: flex;
     flex-direction: row;
-    padding: 20px;
     align-items: center;
 }
 .services .detail .nav .online,
@@ -144,72 +142,4 @@
     max-width: 120px;
     max-height: 120px;
     object-fit: cover;
-}
-
-.services .they-said {
-    padding-top: 60px;
-    display: flex;
-    flex-direction: row;
-}
-
-.services .they-said .question {
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 60px;
-
-    background-color: #A8AEDD91;
-    border-radius: 15px 0 0 0;
-    box-shadow: 0 6px 10px -1px rgba(0,0,0,0.15); 
-}
-.services .they-said .question .icon {
-    scale: 0.8;
-    padding: 20px 18px 20px 18px;
-
-    margin-bottom: 30px;
-    background-color: #8769B6;
-    border-radius: 50%;
-    overflow: visible;
-}
-.services .they-said .question h1 {
-    font-size: 30px;
-    font-weight: 700;
-}
-.services .they-said .question .one-line {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.services .they-said .question .one-line img {
-    scale: 0.8;
-}
-
-.services .they-said .answer {
-    padding-top: 60px;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-.services .they-said .answer h2 {
-    font-size: 25px;
-    font-weight: 700;
-}
-.services .they-said .answer h3 {
-    padding-top: 30px;
-    font-size: 16px;
-    font-weight: 500;
-}
-.services .they-said .answer .pictures {
-    padding-top: 60px;
-    padding-bottom: 10px;
-    display: flex;
-    justify-content: center;
-}
-.services .they-said .answer .pictures img {
-    padding: 5px;
-}
-.services .they-said .answer p {
-    size: 16px;
 }
